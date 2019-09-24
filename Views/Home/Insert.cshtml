@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Insert";
+}
+<body>
+    <div>
+        <div>
+
+            <div>
+                <text size="40">Name :</text>
+                <input class="col-4" id="nameBox" value="" />
+            </div>
+            <div>
+                <text>Category =</text>
+                <select name="Category" id="categoryBox" value="">
+                    <option value="Ecchi">Ecchi</option>
+                    <option value="Shounen">Shounen</option>
+                    <option value="Demons">Demons</option>
+                    <option value="Sci-Fi">Sci</option>
+                    <option value="Advanture">Advanture</option>
+                </select>
+            </div>
+            <div>
+                <text>Link :</text>
+                <input class="col-4" id="linkBox" value="" />
+            </div>
+            <div>
+                <text>Banner Link :</text>
+                <input class="col-4" id="bannerLinkBox" value="" />
+            </div>
+            <div>
+                <text>Release Date:</text>
+                <input class="col-4" id="releaseDate" type="date" value="" />
+            </div>
+            <div>
+                <button id="buttonInsert"> Insert Record </button>
+            </div>
+
+        </div>
+    </div>
+</body>
+@section scripts{
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#buttonInsert").click(function () {
+            var nameTemp = $("#nameBox").val();
+            var categoryTemp = $("#categoryBox").val();
+            var linkTemp = $("#linkBox").val();
+            var bannerLinkTemp = $("#bannerLinkBox").val();
+            var dateTemp = $("#releaseDate").val();
+            $.ajax({
+                url: '/Home/InsertAnime/',
+                type: 'POST',
+                dataType: 'json',
+                data: { name: nameTemp, category: categoryTemp, releaseDate: dateTemp, link: linkTemp, bannerLink: bannerLinkTemp },
+                success: function (data) {
+                    alert(data);
+                    window.location.href = '/Home/Index';
+
+                }
+
+            });
+        });
+    });
+</script>
+}

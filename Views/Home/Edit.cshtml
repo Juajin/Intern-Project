@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+}
+@{
+    var dateTime = Model.dateTime; ;
+    var id = Model.id;
+    var GUID = Model.GUID;
+}
+<body>
+    <div>
+        <div>
+
+            <div>
+                <text size="40">Name :</text>
+                <input class="col-4" id="nameBox" value="@Model.name" />
+            </div>
+            <div>
+                <text>Category =</text>
+                <select name="Category" id="categoryBox" value="">
+                    <option value="Ecchi">Ecchi</option>
+                    <option value="Shounen">Shounen</option>
+                    <option value="Demons">Demons</option>
+                    <option value="Sci-Fi">Sci</option>
+                    <option value="Advanture">Advanture</option>
+                </select>
+            </div>
+            <div>
+                <text>Link :</text>
+                <input class="col-4" id="linkBox" value="@Model.link" />
+            </div>
+            <div>
+                <text>Banner Link :</text>
+                <input class="col-4" id="bannerLinkBox" value="@Model.bannerLink" />
+            </div>
+            <div>
+                <button id="buttonEdit"> Edit </button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+@section scripts{
+    <script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#buttonEdit").click(function () {
+            var nameTemp = $("#nameBox").val();
+            var categoryTemp = $("#categoryBox").val();
+            var linkTemp = $("#linkBox").val();
+            var bannerLinkTemp = $("#bannerLinkBox").val();
+            var dateTime = "@dateTime";
+            var idTemp = "@id";
+            var GUIDTemp = "@GUID";
+            $.ajax({
+                url: '/Home/EditAnime/',
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    name: nameTemp,
+                    category: categoryTemp,
+                    releaseDate: dateTime,
+                    link: linkTemp,
+                    bannerLink: bannerLinkTemp,
+                    GUID: GUIDTemp,
+                    id: idTemp
+                },
+                success: function (data) {
+                    alert(data);
+                    window.location.href = '/Home/Index';
+                }
+            });
+        });
+    });
+
+    </script>
+}
+

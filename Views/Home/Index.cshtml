@@ -1,0 +1,196 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<html5>
+    <head>
+        <style>
+            #searchbox {
+                box-sizing: content-box;
+                width: 105%;
+                height: 400px;
+                border: 5px solid black;
+                overflow-y: scroll;
+            }
+
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                border: 1px solid black;
+                width: 100%;
+                overflow-y: scroll;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                border: 1px solid black;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+
+            body {
+                overflow-y: scroll;
+            }
+        </style>
+    </head>
+
+    <div class="row">
+        <div class="col-lg-2">
+            <div id="searchbox">
+            </div>
+            <div class="row">
+                <input class="col-lg-12" id="search" />
+            </div>
+            <div class="row">
+                <button class="col-lg-6 " id="searchbutton">Search</button>
+                <button class="col-lg-6" id="searchByCategory">Category Search</button>
+            </div>
+            <div class="row">
+                <button class="col-lg-12" id="getPage">Get Page</button>
+            </div>
+            <div class="row">
+
+                <p class="col-lg-2">From :</p>
+                <input id="date1" class="col-lg-4" type="date">
+                <button id="buttonDateSearch" class=" col-lg-6">Search Time Between</button>
+
+
+            </div>
+            <div class="row">
+                <p class="col-lg-2">To :</p>
+                <input id="date2" class="col-lg-4" type="date">
+                <p class=" col-lg-2">Ascending=</p>
+                <input id="chbox" class=" col-lg-3" type="checkbox" width="30" height="30" />
+            </div>
+            <div>
+                <input id="editButton" type="button" value="Edit" />
+                <input id="insertButton" type="button" window.location.href='/Home/Insert' value="Insert " />
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <table class="table" id="table">
+                <tr>
+                    <th width="230px">Image</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Release Time</th>
+                    <th>Detail</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</html5>
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ascending = $("#chbox").prop('checked');
+            $("#getPage").click(function () {
+                $.ajax({
+                    url: '/Home/GetPage/',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { sort: ascending },
+                    success: function (data) {
+                        $.each(data, function (i, item) {
+                            $("#table").append("<tr> <th><img src="
+                                + item.bannerLink + " /> </th><th>"
+                                + item.name + "</th><th>" + item.category
+                                + "</th><th>" + item.releaseDate + "</th><th><a href="
+                                + item.link + " target=_blank>More Info</a></th></tr>");
+                        });
+
+
+                    }
+
+                });
+            });//get page
+            $("#searchbutton").click(function () {
+                var tempName = $("#search").val();
+                $.ajax({
+                    url: '/Home/SearchAnimeByName/',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { name: tempName },
+                    success: function (data) {
+                        $("#searchbox").html("");
+                        $("#searchbox").append("<img id=image src="
+                            + data[0].bannerLink + " /> <br> Name = "
+                            + data[0].name + "<br> Category = "
+                            + data[0].category + "<br>Release Date = "
+                            + data[0].releaseDate + "<br><a href="
+                            + data[0].link + " target=_blank>More Info</a>"
+                                /*+ "<br> <input id=editButton type=button value=Edit />"*/);
+                    }
+                });
+            });//search with name
+            $("#searchByCategory").click(function () {
+                var tempCategory = $("#search").val();
+                var ascending = $("#chbox").prop('checked');
+                $.ajax({
+                    url: '/Home/SearchAnimeByCategory/',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { Category: tempCategory, Sort: ascending },
+                    success: function (data) {
+                        $("#searchbox").html("");
+                        $.each(data, function (i, item) {
+                            $("#searchbox").append("<img heigh=100 width=50 src="
+                                + item.bannerLink + " />" + item.name + " <->"
+                                + item.releaseDate + " <-> <a href = "
+                                + item.link + " target = _blank > More Info</a > <br>");
+                        });
+
+
+                    }
+                });
+            });//search with category
+            $("#buttonDateSearch").click(function () {
+                var tempDate1 = $("#date1").val();
+                var tempDate2 = $("#date2").val();
+                var ascending = $("#chbox").prop('checked');
+                $.ajax({
+                    url: '/Home/SearchAnimeByDate/',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { date1: tempDate1, date2: tempDate2, sort: ascending },
+                    success: function (data) {
+                        $("#searchbox").html("");
+                        $.each(data, function (i, item) {
+                            $("#searchbox").append("<img heigh=100 width=50 src="
+                                + item.bannerLink + " />" + item.Name + " <->"
+                                + item.releaseDate + " <-> <a href = "
+                                + item.link + " target = _blank > More Info</a > <br>");
+                        });
+
+
+                    }
+                });
+            });//search with date
+            $("#editButton").click(function () { //open new page
+                var tempSTR = $("#searchbox").html();
+                if (tempSTR.length > 5) {
+                    $.ajax({
+                        url: '/Home/ExtractAnimeGivenHTMLText/',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { animeText: tempSTR },
+                        success: function (data) {
+                            $("#searchbox").html("");
+                            window.location.href = '/Home/Edit';
+                        }
+                    });
+                }
+            });
+            $("#insertButton").click(function () { //open new page
+                window.location.href = '/Home/Insert';
+
+            });
+        });
+
+
+    </script>
+}

@@ -1,0 +1,65 @@
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.deps.json
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.runtimeconfig.json
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.runtimeconfig.dev.json
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.dll
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.csprojAssemblyReference.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.csproj.CoreCompileInputs.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorAssemblyInfo.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorAssemblyInfo.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.AssemblyInfoInputs.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.AssemblyInfo.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.TagHelpers.input.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.TagHelpers.output.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorCoreGenerate.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorTargetAssemblyInfo.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorTargetAssemblyInfo.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.pdb
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.Views.dll
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.Views.pdb
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.Views.pdb
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.dll
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.pdb
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeforFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.csproj.CopyComplete
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.deps.json
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.runtimeconfig.json
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.runtimeconfig.dev.json
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.dll
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.pdb
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.Views.dll
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\bin\Debug\netcoreapp2.1\FeeforFreedom.Views.pdb
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.csprojAssemblyReference.cache
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.csproj.CoreCompileInputs.cache
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorAssemblyInfo.cache
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorAssemblyInfo.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.AssemblyInfoInputs.cache
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.AssemblyInfo.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.TagHelpers.input.cache
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.TagHelpers.output.cache
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorCoreGenerate.cache
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorTargetAssemblyInfo.cache
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.RazorTargetAssemblyInfo.cs
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.Views.pdb
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.dll
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.pdb
+C:\Users\DFDS Furkan Kubilay\Documents\GitHub\FeeForFreedom\obj\Debug\netcoreapp2.1\FeeforFreedom.csproj.CopyComplete
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeForFreedom\obj\Debug\netcoreapp2.1\Razor\Views\Home\Insert.g.cshtml.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeForFreedom\bin\Debug\netcoreapp2.1\HelperLibrary.dll
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\FeeForFreedom\bin\Debug\netcoreapp2.1\HelperLibrary.pdb

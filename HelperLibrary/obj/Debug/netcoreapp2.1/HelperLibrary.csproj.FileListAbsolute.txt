@@ -1,0 +1,9 @@
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\bin\Debug\netcoreapp2.1\HelperLibrary.deps.json
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\bin\Debug\netcoreapp2.1\HelperLibrary.dll
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\obj\Debug\netcoreapp2.1\HelperLibrary.csprojAssemblyReference.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\obj\Debug\netcoreapp2.1\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\obj\Debug\netcoreapp2.1\HelperLibrary.AssemblyInfoInputs.cache
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\obj\Debug\netcoreapp2.1\HelperLibrary.AssemblyInfo.cs
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\bin\Debug\netcoreapp2.1\HelperLibrary.pdb
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\obj\Debug\netcoreapp2.1\HelperLibrary.dll
+C:\Users\Anil Dursun\source\repos\FeeforFreedom\HelperLibrary\obj\Debug\netcoreapp2.1\HelperLibrary.pdb
